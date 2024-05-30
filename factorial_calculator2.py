@@ -10,11 +10,11 @@ def factorial(number):
   
 factorial(number=int(input("which number do you want to take the factorial of: ")))
 while True:
-    soru = input("yine,yeni,yeniden?(e,h)").lower()
-    if soru == "e":
+    question = input("whould you want to try again? (e,h)").lower()
+    if question == "e":
         factorial(number=int(input("which number do you want to take the factorial of: ")))
-    elif soru == "h" :
-        print("yallah ar*bistana")
+    elif question == "h" :
+        print("your process completed. ")
         exit()
     else:
-        print("dümbelek misin evladım yanlış girdin. Az iç!!!")
+        print("You entered wrong answer, please try again")
