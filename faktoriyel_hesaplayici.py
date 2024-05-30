@@ -17,9 +17,10 @@ while len(list)> baslangıc_indexi:
 print(deger)
 
 while True:
-    soru=input("tekrardan oynamak ister misiniz? (E/H): ")
-    #while içerisine while yapmamız gerekiyor benim kısmımda eksik olan orasıydı.
+
     while True:
+        soru=input("tekrardan oynamak ister misiniz? (E/H): ")
+    #while içerisine while yapmamız gerekiyor benim kısmımda eksik olan orasıydı.
         if "E"==soru.upper():
             sayi=int(input("hangi sayının faktöriyelini hesaplamak istiyorsunuz: "))
             if sayi==0:
